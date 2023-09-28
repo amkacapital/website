@@ -1,0 +1,32 @@
+.carousel-2-height-clone {
+  min-height: 50vh;
+}
+.caro-2-img {
+  height:300px;
+  width: 330px;
+  float: right;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 770px) {
+  .para-img-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .caro-2-img {
+    height:300px;
+    width:280px;
+    float: right;
+    margin-bottom:5%;
+  }
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    .caro-2-img {
+      height:190px;
+      width:250px;
+
+      }
+}

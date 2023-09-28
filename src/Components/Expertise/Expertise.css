@@ -1,0 +1,22 @@
+.exp-div{
+    background:url('../HomeCarousel1/img1.jpg') center center/cover;
+    height:auto;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exp-black-box
+{
+    width:85%;
+    height:90%;
+    padding:3% 5% 5% 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 768px) {
+    .exp-black-box
+    {
+        width:90%;
+    }
+  }

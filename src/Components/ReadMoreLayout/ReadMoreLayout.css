@@ -1,0 +1,21 @@
+.readmore-div{
+    background:url('../HomeCarousel1/img1.jpg') center center/cover;
+    height:auto;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readmore-black-box
+{
+    width:68%;
+    height:90%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 768px) {
+    .readmore-black-box
+    {
+        width:90%;
+    }
+  }

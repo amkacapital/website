@@ -1,0 +1,43 @@
+
+  .glass-div{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height:40vh;
+    width:40vw;
+    padding:1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .caro{
+    width:100vw;
+    height:95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel1{
+    position:relative;
+    right:-15px;
+    left:-10px;
+    width: 102vw;
+  }
+  @media only screen and (max-width:768px) {
+    .glass-div{
+        width:55vw;
+    }
+  }
+  @media only screen and (max-width:426px) {
+    .glass-div{
+        width:85vw;
+        height:auto;
+    }
+    .carouselHeading h1{
+      font-size: 2rem;
+    }
+  }

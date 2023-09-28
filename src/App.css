@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.neumorphism{
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow:  12px 22px 40px #85848426, 11px 11px 60px #919191d9;
+}

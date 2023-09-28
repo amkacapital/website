@@ -1,0 +1,43 @@
+.carousel-2-height{
+    height: auto;
+}
+
+.carousel-2-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-radius{
+    border-bottom-left-radius : 30px;
+    border-top-left-radius: 30px;
+}
+
+@media only screen and (max-width:770px){
+    .carousel-2-card{
+        flex-direction: column;
+    }
+    .border-radius{
+        border-radius: 30px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:500px){
+
+  .homecarouselSubtitle p{
+    display: none;
+}
+    .short-img{
+        height: 260px;
+    }
+
+}
+.carousel-2-card{
+        margin: 0;
+        padding: 10px;
+}
+
+.border-radius{
+        border-radius: 10px;
+}

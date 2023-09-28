@@ -1,0 +1,5 @@
+.terms-bg{
+    background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmV0dXJuJTIwcG9saWN5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60') rgba(0, 0, 0, 0.4) no-repeat center center/cover; 
+    background-blend-mode: darken;
+    height: 40vh;
+}

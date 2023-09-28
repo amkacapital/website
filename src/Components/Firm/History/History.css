@@ -1,0 +1,53 @@
+.table{
+    width:100%;
+    background-color:rgb(243, 239, 239,0.25) ;
+}
+.table-head{
+
+    display:grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-data{
+    display: grid;
+    grid-template-columns:20% 70%;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    color: white;
+    letter-spacing:0.6px;  
+}
+.yr
+{
+    font-size:20px;
+    color: white;
+    cursor: pointer;
+    padding:5%;
+}
+.yr:hover{
+    color: black;
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .table-data{
+        display: grid;
+        grid-template-columns:100%;
+        justify-content: center;
+        align-items: center;
+        padding:2%;
+        letter-spacing:0.2px;  
+    }
+    .yr{
+        padding:2%;
+    }
+    .table-head{
+
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+
